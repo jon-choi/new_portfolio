@@ -14,14 +14,8 @@ const abouts = [
 const About = () => {
   return (
     <>
-      <h2 className="head-text">
-        I know that
-        <span>Good design</span>
-        <br />
-        means
-        <span>Good business</span>
-        </h2>
-
+      <h2 className="head-text">First, <span>solve the problem </span><br />then, <span>write the code</span></h2>
+        <h3 style={{ alignItems: 'center', justifyContent: 'center', display: 'flex' }}><em>- John Johnson</em></h3>
         <div className="app__profiles">
           {abouts.map((about, index) => (
             <motion.div
