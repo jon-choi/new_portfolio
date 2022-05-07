@@ -21,7 +21,34 @@ const Header = () => {
               <h1 className="head-text">Jonathan</h1>
             </div>
           </div>
+
+          <div className="tag-cmp app__flex">
+          <p className="p-text">Web Developer</p>
+          <p className="p-text">Lifelong Learner</p>
+          </div>
         </div>
+      </motion.div>
+
+      <motion.div
+        whileInView={{ opacity: [0, 1]}}
+        transition={{ duration: 0.5, delayChildren: 0.5}}
+        className="app__header-img"
+      >
+        <img style={{ width: 400, height: 500 }} src={images.profile} alt="profile_bg"/>
+        <motion.img
+          whileInView={{ scale: [0, 1]}}
+          transition={{ duration: 1, ease: 'easeInOut' }}
+          src={images.circle}
+          alt="profile_circle"
+          className="overlay_circle"
+        >
+
+        </motion.img>
+      
+      </motion.div>
+      
+      <motion.div>
+        
       </motion.div>
     </div>
   )
