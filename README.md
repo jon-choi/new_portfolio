@@ -17,6 +17,10 @@ If you would like to run this project locally, here are the steps:
 3. `cd` into /frontend_react and run `npm start` to run the project
 4. Have fun!
 
+## Screenshot
+
+!["portfolio screenshot"](https://github.com/jon-choi/new_portfolio/blob/master/docs/portfolio-screenshot.png?raw=true)
+
 ### Dependencies
 
 - React
