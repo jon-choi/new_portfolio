@@ -4,7 +4,7 @@ This is a full stack portfolio built with React on the front end, and Sanity on 
 
 ## Deployed Link
 
-This portfolio has been deployed through Netlify! Save the hassle to cloning this project on your own machine and check out the following link
+This portfolio has been deployed through Netlify! Save the hassle of cloning this project on your own machine and check out the following link
 
 - [My Portfolio](https://jc-portfolio2022.netlify.app/)
 
