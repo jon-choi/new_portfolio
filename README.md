@@ -27,3 +27,7 @@ If you would like to run this project locally, here are the steps:
 - Sanity
 - Framer-motion
 - SCSS
+
+### TODO
+
+Link Sanity to Netlify for continous deployment
