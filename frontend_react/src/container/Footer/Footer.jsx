@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       {!isFormSubmitted ? (
-        <div className="app__footer app__flex">
+        <div className="app__footer-form app__flex">
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your name" name="username" value={username} onChange={handleChangeInput} />
           </div>
