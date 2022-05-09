@@ -51,9 +51,33 @@ const Footer = () => {
           <a href="tel:+1 (779) 995-4791" className="p-text">+1 (779) 995-4791</a>
         </div>
       </div>
+      {!isFormSubmitted ? (
+        <div className="app__footer app__flex">
+          <div className="app__flex">
+            <input className="p-text" type="text" placeholder="Your name" name="username" value={username} onChange={handleChangeInput} />
+          </div>
+          <div className="app__flex">
+            <input className="p-text" type="email" placeholder="Your email" name="email" value={email} onChange={handleChangeInput} />
+          </div>
+          <div>
+            <textarea
+              className="p-text"
+              placeholder="Your message"
+              value={message}
+              name="message"
+              onChange={handleChangeInput}
+            />
+          </div>
+          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
+        </div>
+      ) : (
+        <div>
+          <h3 className="head-text">Thanks for getting in touch!</h3>
+        </div>
+      )}
     </>
-  )
-}
+  );
+};
 
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
