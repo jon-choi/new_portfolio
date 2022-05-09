@@ -18,6 +18,19 @@ const Testimonial = () => {
     setCurrentIndex(index);
   }
 
+  useEffect(() => {
+    const query = '*[_type == "testimonials"]';
+    const brandsQuery = '*[_type == "brands"]';
+
+    client.fetch(query).then((data) => {
+      setTestimonials(data);
+    });
+
+    client.fetch(brandsQuery).then((data) => {
+      setBrands(data);
+    });
+  }, []);
+
   return (
     <div>Testimonial</div>
   )
