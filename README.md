@@ -13,8 +13,8 @@ This portfolio has been deployed through Netlify! Save the hassle of cloning thi
 If you would like to run this project locally, here are the steps:
 
 1. Clone project
-2. run `npm install` to install all necessary dependencies
-3. `cd` into /frontend_react and run `npm start` to run the project
+2. `cd` into both "backend_sanity" and "frontend_react" and run `npm install` to install all the necessary packages.
+3. While in the "frontend_react" directory, run `npm start` to start the project.
 4. Have fun!
 
 ## Screenshot
