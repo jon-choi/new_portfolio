@@ -5,7 +5,7 @@ import { SiVsco, SiMedium } from 'react-icons/si';
 const SocialMedia = () => (
   <div className="app__social">
     <div>
-      <AiFillGithub />
+      <AiFillGithub href={`https://github.com/jon-choi`}/>
     </div>
     <div>
       <AiFillLinkedin />
